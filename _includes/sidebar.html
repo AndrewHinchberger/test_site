@@ -1,0 +1,54 @@
+<!-- Toggleable sidebar -->
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    {% if page.lang == "en" %}
+    <p> Cool site description! </p>
+    {% else if page.lang == "ca" %}
+    <p> Descripció Fantàstica del Lloc Web! </p>
+    {% endif %}
+  </div>
+
+  <nav class="sidebar-nav">
+    {% if page.lang == "en" %}
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/en/home/' }}">Home</a>
+    {% else if page.lang == "ca" %}
+    <a class="sidebar-nav-item{% if page.title == 'Principal' %} active{% endif %}" href="{{ '/ca/principal/' }}">Principal</a>
+    {% endif %}
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | where:"lang", page.lang | sort:"sidebar" %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+  </nav>
+
+  <div class="sidebar-item">
+   {% if page.lang == "en" %}
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+   {% else if page.lang == "ca" %}
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. Tots els drets reservats.
+    </p>
+   {% else %}
+    <p>
+     How did you get here?
+    </p>
+   {% endif %}
+  </div>
+</div>

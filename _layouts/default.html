@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="theme-base-0e">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+	     {% if page.lang == "en" %}
+    		<a href="{{ site.baseurl }}/en/home/" title="Home">Cool Test Website!</a>
+                <small>Clever and witty tagline!</small>
+   	     {% else if page.lang == "ca" %}
+    		<a href="{{ site.baseurl }}/ca/principal/" title="Home">Web de Proves Impressionant!</a>
+                <small>Eslògan Intelligent i Enginyós!</small>
+    	     {% endif %}
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='{{ site.baseurl }}/public/js/script.js'></script>
+  </body>
+
+  {% include footer.html %}
+</html>
