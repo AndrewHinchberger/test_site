@@ -10,4 +10,4 @@ sidebar: 1
 Check out this cute seal!
 
 
-[![Seal](/public/seal.jpg "Click Me!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
+[![Seal](/public/seal.png "Click Me!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
