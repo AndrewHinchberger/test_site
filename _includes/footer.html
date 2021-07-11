@@ -8,7 +8,7 @@
         <em>Llenguatge/Language:</em>
         <ul>
         {% for post in posts %}
-        <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="{{post.lang}}"><img src="/test_site/public/{{ post.lang }}flag.png" height = 30 width = 45></a></li>
+        <li><a href="{{ site.base-url }}/test_site/{{ post.url }}" class="{{ post.lang }}" title="{{post.lang}}"><img src="/test_site/public/{{ post.lang }}flag.png" height = 30 width = 45></a></li>
         {% endfor %}
         </ul>
     </footer>
