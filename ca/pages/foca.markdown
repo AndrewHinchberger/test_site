@@ -9,4 +9,4 @@ sidebar: 1
 
 Mireu aquest preciós foca!
 
-[![Foca](/public/seal.jpg "Feu Clic a Mi!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
+[![Foca](/public/seal.png "Feu Clic a Mi!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
