@@ -1,3 +1,6 @@
+{% comment %}
+keeping this here for now, but disabling
+
 {% if page.layout != 'index' %}
     {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
     {% if posts.size == 0 %}
@@ -14,3 +17,5 @@
     </footer>
     {% endif %}
 {% endif %}
+
+{% endcomment %}
