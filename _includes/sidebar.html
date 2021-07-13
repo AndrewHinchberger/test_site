@@ -44,7 +44,7 @@
     {% endif %}
     {% if posts.size > 1 %}
         {% for post in posts %}
-        <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="{{post.lang}}">{{post.lang}}</a>
+        <a href="{{ site.base-url }}/test_site/{{ post.url }}" class="{{ post.lang }}" title="{{post.lang}}">{{post.lang}}</a>
         {% endfor %}
     {% endif %}
   {% endif %}
