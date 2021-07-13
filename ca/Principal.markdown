@@ -1,3 +1,7 @@
+<!---
+
+disabling for now
+
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
@@ -9,3 +13,4 @@ permalink: /ca/principal/
 ---
 
 Benvingut a la meva pàgina principal! Em dic Andrew.
+--->
