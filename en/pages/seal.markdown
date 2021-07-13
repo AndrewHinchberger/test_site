@@ -10,4 +10,4 @@ sidebar: 1
 Check out this cute seal!
 
 
-[![Seal](/public/seal.Jpg "Click Me!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
+[![Seal](https://andrewhinchberger.github.io/test_site/public/seal.jpg "Click Me!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
