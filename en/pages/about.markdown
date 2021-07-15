@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /en/about/
+title: About the Website
+permalink: /en/website/
 lang: en
 lang-ref: about
 sidebar: 0
