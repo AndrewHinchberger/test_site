@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sobre
-permalink: /ca/Sobre/
+title: Sobre el Lloc Web
+permalink: /ca/llocweb/
 lang: ca
 lang-ref: about
-sidebar: 0
+sidebar: 1
 ---
 
 Hola! Es tracta d’un lloc de proves dissenyat per practicar la combinació de temes i la implementació de paràmetres multilingües. Disculpeu el català, acabo d’utilitzar google translate.
