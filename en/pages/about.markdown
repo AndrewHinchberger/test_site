@@ -4,7 +4,7 @@ title: About the Website
 permalink: /en/website/
 lang: en
 lang-ref: about
-sidebar: 0
+sidebar: 1
 ---
 
 Hello! This is a test site designed to practice combining themes and implementing multilingual settings. Apologies for the bad Catalan, I just used google translate.
