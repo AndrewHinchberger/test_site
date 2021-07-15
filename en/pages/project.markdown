@@ -4,7 +4,7 @@ title: About the Project
 permalink: /en/project/
 lang: en 
 lang-ref: project
-sidebar: 0.5
+sidebar: 0
 ---
 
 <h1>School Pollution Map</h1>
