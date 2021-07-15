@@ -1,3 +1,5 @@
+<!---
+
 ---
 layout: page
 title: Seal
@@ -11,3 +13,5 @@ Check out this cute seal!
 
 
 [![Seal](https://andrewhinchberger.github.io/test_site/public/seal.jpg "Click Me!")](https://www.youtube.com/watch?v=Lmw4lzjEqD8)
+
+--->
