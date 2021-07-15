@@ -4,7 +4,7 @@ title: Sobre el Projecte
 permalink: /ca/projecte/
 lang: ca
 lang-ref: project
-sidebar: 0.5
+sidebar: 0
 ---
 
 <h1>Mapa Escolar de Contaminació</h1>
