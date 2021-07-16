@@ -1,8 +1,9 @@
+"categories" is adopting the file path that the posts are in - need to restructure to fix this (but this will also likely screw up permalinks, oh well, fixable)
+
 - improve footer
 - improve home pages
 - improve landing page
 - use something other than a default lanyon theme? might be a bit of a pain but could be worth for final product
-- multilingual title/tagline/desc are done by redirecting from config into code that we will have to manually replace instead of just editing the config info - is this ok?
 - maybe condense 'lang-ref' and 'sidebar'?
 - sidebar dropdowns (defn "subpage" layout w/ "parent" frontmatter?) https://idratherbewriting.com/jekylldoctheme-separate-outputs/mydoc/mydoc_configure_sidebar.html ?
 - push to github/host on github pages
